@@ -1,4 +1,11 @@
-/vendor/
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+.phpunit.result.cache
+
+/nbproject
 node_modules/
 npm-debug.log
 yarn-error.log
