@@ -7,8 +7,9 @@
  */
 
 namespace App\Http\Controllers;
-use \App\Models\Serie;
 
+use \App\Models\Serie;
+use \Illuminate\Http\Request;
 /**
  * Description of SeriesController
  *
@@ -19,4 +20,11 @@ class SeriesController
     public function index() {
         return Serie::all();
     }
+    
+    public function store(Request $reques) 
+    {
+        return response()->json(Serie::create(['nome'=> $reques->nome]), 201);
+    }
 }
+
+
