@@ -26,7 +26,7 @@ class SeriesController
         return response()->json(Serie::create(['nome'=> $reques->nome]), 201);
     }
     
-    public function get(int $id) 
+    public function show(int $id) 
     {
         $serie = Serie::find($id);
         
