@@ -7,6 +7,7 @@
  */
 
 namespace App\Http\Controllers;
+use \App\Models\Serie;
 
 /**
  * Description of SeriesController
@@ -16,9 +17,6 @@ namespace App\Http\Controllers;
 class SeriesController 
 {
     public function index() {
-        return [
-            "Grey's Anatomy", 
-            "Lost"
-        ];
+        return Serie::all();
     }
 }
