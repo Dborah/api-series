@@ -8,18 +8,17 @@
 
 namespace App\Http\Controllers;
 
-use \App\Models\Serie;
+use \App\Models\Episodio;
 /**
- * Description of SeriesController
+ * Description of EpisodiosController
  *
  * @author deborah
  */
-class SeriesController extends BaseController
+class EpisodiosController extends BaseController 
 {
-   public function __construct() {
-        $this->classe = Serie::class;
+    public function __construct() {
+        $this->classe = Episodio::class;
     }
-
 }
 
 
