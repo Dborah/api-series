@@ -25,6 +25,17 @@ class SeriesController
     {
         return response()->json(Serie::create(['nome'=> $reques->nome]), 201);
     }
+    
+    public function get(int $id) 
+    {
+        $serie = Serie::find($id);
+        
+        if(is_null($serie)){
+            return response()->json('', 204);
+        }
+        return response()->json($serie, 200);
+        
+    }
 }
 
 
