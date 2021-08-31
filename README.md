@@ -7,7 +7,6 @@ Uma aplicação restfull pra controle de quais episódios já foram assistidos d
 - [x] Uso do Eloquent para persistir os dados 
 - [x] Recursos e rotas definidos com o Lumen 
 - [x] Autenticação com tokens JWT
-- [x] Autenticação 
 
 ## Banco de dados 
 <p align="center">
