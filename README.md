@@ -3,7 +3,7 @@ Uma aplicação restfull pra controle de quais episódios já foram assistidos d
 
 ## Características
 - [x] Uso de docker para criação dos containers da aplicação
-- [x] Estilo arquitetural e seus padrões
+- [x] Estilo arquitetural REST e seus padrões
 - [x] Uso do Eloquent para persistir os dados 
 - [x] Recursos e rotas definidos com o Lumen 
 - [x] Autenticação com tokens JWT
