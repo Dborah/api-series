@@ -1,5 +1,5 @@
 # api-series
-Uma aplicação restfull pra controle de quais episódios já foram assistidos de uma série. 
+Uma aplicação restfull para cadastro de séries e episódios e controle de quais episódios já foram assistidos de uma série 
 
 ## Características
 - [x] Uso de docker para criação dos containers da aplicação
